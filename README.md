@@ -1,4 +1,4 @@
-# Personal Portfolio 
+# Personal Portfolio Website
 
 ## Features
 - Visitors can show my skillset, institution and contact details.
