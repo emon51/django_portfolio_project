@@ -1,11 +1,11 @@
 # Personal Portfolio 
 
 ## Features
-- Visitors can show my skillset, contact details.
+- Visitors can show my skillset, institution and contact details.
     
 
 - **Security:**
-  - Only I can manage this site(e.g., add, update and delete something)
+  - Only I'm able to manage this site(e.g., add, update and delete something)
 
 
 
@@ -18,6 +18,6 @@
 
 ## Clone this project
    ```
-   git clone https://github.com/emon51/Online-Learning-Platform.git
+   git clone https://github.com/emon51/django_portfolio_project.git
    ```
 
