@@ -1,5 +1,8 @@
 # Personal Portfolio Website
 
+## Motivation
+ Developed a personal portfolio website to showcase professional experience, skills and projects.
+
 ## Features
 - Visitors can show my skillset, institution and contact details.
     
