@@ -1,0 +1,38 @@
+
+
+{% extends 'html/base.html' %}
+
+
+{% block content %} 
+
+<div class="skills">
+    <h3> Skills </h3><hr>
+    <span class="skill-text">
+        {{ objects.content }}
+    </span>
+    <ul>
+        <li>
+            <a id='skill-a-tag' href="https://leetcode.com/emon51/"> Leetcode </a> 
+        </li>
+        <li>
+            <a id='skill-a-tag' href="https://auth.geeksforgeeks.org/user/emanur11235"> GeeksForGeeks </a>
+        </li>
+        <li>
+            <a id='skill-a-tag' href="https://www.naukri.com/code360/profile/emonhasan"> Coding Ninjas </a>
+        </li>
+        <li>
+            <a id='skill-a-tag' href="https://www.hackerrank.com/profile/emanur11235"> Hackerrank </a>
+        </li>
+    </ul>
+
+    <span> <b id='skill-title'> Languages: </b> <b id='skill-text'> {{ objects.languages }} </b> </span> <br>
+    <span> <b id='skill-title'> Datbases: </b> <b id='skill-text'> {{ objects.dbms }} </b> </span> <br>
+    <span> <b id='skill-title'> softwares: </b> <b id='skill-text'> {{ objects.softwares }} </b> </span> <br>
+    <span> <b id='skill-title'> Others: </b> <b id='skill-text'> CSS | Django </b> </span>
+</div>
+               
+{% endblock %}
+
+
+
+
